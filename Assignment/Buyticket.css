@@ -1,0 +1,553 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.639),rgba(0, 0, 0, 0.639)),url(images/DetailsBacground.jpeg );
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.Header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71));
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5%;
+    box-shadow: 0 10px 15px rgba(219, 13, 13, 0.1);
+}
+h1{
+    color: white;
+}
+h1 a{
+    color: aqua;
+}
+.Header ul{
+    list-style: none;
+    display: flex;
+}
+.Header ul li{
+    padding: 10px 30px;
+    position: relative;
+}
+.Header ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.3s;
+
+}
+.Header ul li a:hover{
+    color: aqua;
+}
+.subMenu{
+    display: none;
+ 
+}
+.Header ul li:hover .subMenu {
+    display: block;
+    background-color: aqua;
+    position: absolute;
+    left: 0%;
+    top: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+    border-radius: 10%;
+    box-shadow: 0 10px 15px rgba(219, 13, 13, 0.1);
+    
+}
+.subMenu ul{
+    display: block;
+    margin: 5px;
+}
+.subMenu ul li a{
+    color: white;
+}
+hr{
+  margin-top: 4%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.Buytickets-Summarytable{
+    margin-top:42%;
+    margin-left: 48%;
+    width: 600px;
+    height: 500px;
+    padding: 0;
+  }
+  .Buytickets-Summarytable td{
+   border: 1px solid black;
+   border-radius: 5%;
+   text-align: left;
+   background-color: rgb(216, 216, 216);
+   color: solid black;
+  }
+  .Buytickets-Tickets td{
+    background-color: gray;
+  }
+  .Buytickets-Payable td{
+    background-color: gray;
+  }
+  .pickaday {
+    font-size: 30px;
+    color: rgb(246, 213, 151);
+    border-color: rgb(255, 255, 255);
+    margin-top: -78%;
+    margin-left: 13%;
+    margin-bottom: 1%;
+}
+
+.wrapper{
+    width: 370px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+    margin-left: 5%;
+    margin-right: 20%;
+    height: 380px;
+    border-radius: 3%;
+  }
+  .wrapper header{
+    display: flex;
+    align-items: center;
+    padding: 25px 30px 10px;
+    justify-content: space-between;
+  }
+  header .icons{
+    display: flex;
+  }
+  header .icons span{
+    height: 38px;
+    width: 38px;
+    margin: 0 1px;
+    cursor: pointer;
+    color: #878787;
+    text-align: center;
+    line-height: 38px;
+    font-size: 1.9rem;
+    user-select: none;
+    border-radius: 50%;
+  }
+  .icons span:last-child{
+    margin-right: -10px;
+  }
+  header .icons span:hover{
+    background: #f2f2f2;
+  }
+  header .current-date{
+    font-size: 1.45rem;
+    font-weight: 500;
+  }
+  .calendar{
+    padding: 20px;
+  }
+  .calendar ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: center;
+  }
+  .calendar .days{
+    margin-bottom: 20px;
+  }
+  .calendar li{
+    color: #333;
+    width: calc(100% / 7);
+    font-size: 1.07rem;
+  }
+  .calendar .weeks li{
+    font-weight: 500;
+    cursor: default;
+  }
+  .calendar .days li{
+    z-index: 1;
+    cursor: pointer;
+    position: relative;
+    margin-top: 30px;
+  }
+  .days li.inactive{
+    color: #aaa;
+  }
+  .days li.active{
+    color: black;
+  }
+  .days li::before{
+    position: absolute;
+    content: "";
+    left: 50%;
+    top: 50%;
+    height: 40px;
+    width: 40px;
+    z-index: -1;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .days li.active::before{
+    background: aqua;
+    
+  }
+  .days li:not(.active):hover::before{
+    background: rgb(208, 208, 208);
+  }
+  .Buytickets-Guests{
+    background-color: rgb(250, 238, 215);
+    color: black;
+    width: 370px;
+    height: 370px;
+    margin-top: 1%;
+    margin-left: 5%;
+    padding: 3%;
+    border-radius: 3%;
+}
+
+.Buytickets-guests{
+    color: rgb(246, 213, 151);
+    font-size: 30px;
+    margin-top: 2%;
+    margin-left: 15%;
+}
+
+.guestlbl{
+    margin-left: 8px;
+    font-size: 17px;
+    margin-right: 50px;
+}
+.guestlbl2{
+    margin-left: 8px;
+    font-size: 17px;
+    margin-right: 115px;
+}
+#lbl1{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+#lbl2{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+#lbl3{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+#lbl4{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+#lbl5{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.Buytickets-Guests button{
+    border-radius: 30px;
+    font-size: 12px;
+    padding: 10px 15px;
+    color: #fffefe;
+    background-color: #706f6f;
+    border: none;
+    transform: scale(1.1);
+}
+.Buytickets-Guests button:hover{
+    transform: scale(1.3) rotate(.3deg);
+    background-color: black;
+    color: white;
+}
+.Buytickets-table{
+    margin-top:3%;
+    margin-left: 26%;
+    width: 550px;
+    height: 450px;
+    padding: 0%;
+}
+.Buytickets-table, th, td{
+    border: 1px solid;
+    text-align: center
+  }
+  .Buytickets-table th{
+    background-color: rgb(59, 59, 59);
+     color: wheat;
+      font-size: 25px;
+  }
+  .Buytickets-table td{
+    background-color: rgb(249, 229, 193);
+  }
+  .Buytickets-duration{
+    font-size: 30px;
+    margin-top: 1%;
+    margin-left: 15%;
+    color: rgb(246, 213, 151);
+}
+
+
+.Buytickets-selectbox{
+    margin-top: 10px;
+    position: relative;
+    background-color: rgb(249, 229, 193);
+    color: black;
+    width: 370px;
+    height: 390px;
+    margin-left: 5%;
+    padding: 1%;
+    border-radius:3%;
+}
+.Buytickets-select{
+    background: #2a2f3b;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px #2a2f3b solid;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    cursor: pointer;
+  
+}
+.Buytickets-select-clicked{
+    border: 2px #26489a solid;
+    box-shadow: 0 0 0.8em #26489a;
+}
+.Buytickets-slect:hover
+{
+    background: #323741;
+}
+
+.Buytickets-menu{
+    list-style: none;
+    padding: 0.1em 0.3em;
+    background: #323741;
+    border: 1px #363a43 solid;
+    box-shadow: 0 0.5em 1em rgba(0,0,0,0.2);
+    border-radius: 0.5em;
+    color: #9fa5b5;
+    position: absolute;
+    top: 3em;
+    left: 50%;
+    width: 70%;
+    transform: translateX(-50%);
+    transition: 0.2s;
+    z-index: 1;    
+}
+.Buytickets-menu li{
+   padding: 0.2em 0.1em;
+   margin: 0.3em 0;
+   border-radius: 0.5em;
+   cursor: pointer; 
+}
+.Buytickets-menu li:hover{
+    background: #2a2d35;
+    transform: scale(1.1) rotate(.3deg);
+    color: white;
+}
+
+.Buytickets-menu-open{
+   display: block;
+   opacity: 1;  
+}
+#end button{
+    color: white;
+    background-color: black;
+    font-size: 18px;
+    margin-left: 38%;
+    margin-top: 7%;
+    padding: 1.5%;
+    
+  }
+  #end button:hover{
+    color: black;
+      background-color: ghostwhite;
+      font-size: 18px;
+    padding: 1.8%;
+  }
+  #end button a{
+    color: white;
+    background-color: black;
+  }
+  .BuyTicketFooter{
+    margin-top: 60px;
+    width: 100%;
+    padding: 5em;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.71),rgba(0, 0, 0, 0.71));
+    color: #efefef;
+    display: flex;
+    margin-left: 0%;
+  }
+ 
+ 
+  .BuyTicketFooter div{
+    text-align: center;
+  }
+  .BuyTicketFooter div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    font-size: 28px;
+    color: aqua;
+  }
+  .BuyTicket-col-1{
+    margin-right: 10%;
+  }
+  .BuyTicket-col-2{
+    margin-right: 10%;
+  }
+  .BuyTicket-col-3{
+    margin-right: 10%;
+  }
+  
+  .BuyTicket-col-1 ul li{
+    display: block;
+  }
+  
+  .BuyTicket-col-2 a{
+   display: block;
+   text-decoration: none;
+   color: #efefef;
+   margin-bottom: 10px;
+  }
+  .BuyTicket-col-2 a:hover{
+    color:  rgb(76, 240, 240);
+  }
+  .BuyTicket-socialicons{
+    margin-top: 30px;
+  }
+  .BuyTicket-socialicons i{
+    margin: 10px;
+    font-size: 35px;
+    cursor: pointer;
+  
+  }
+  .BuyTicket-socialicons i:hover{
+    color:  aqua;
+  }
+    /*
+    Payment.css
+    */
+
+    .Payment-Summarytable{
+        margin-top: 8%;
+        margin-left: 58%;
+        width: 500px;
+        height: 400px;
+        padding: 0;
+     }
+     .Payment-Summarytable td{
+       border: 1px solid black;
+       border-radius: 5%;
+       text-align: left;
+       background-color: rgb(216, 216, 216);
+       color: solid black;
+     }
+     .Payment-Tickets td{
+        background-color: gray;
+      }
+      .Payment-Payable td{
+        background-color: gray;
+      }
+      .Payment-form {
+        margin-top: -37%;
+    }
+      .Payment-form-control {
+        display: flex;
+        flex-direction: column;
+      }
+      .Payment-form-control label{
+        margin-top: 3%;
+        color: gainsboro;
+        margin-left: 3%;
+        margin-bottom: 1%;
+      }
+      .Payment-form-control input{
+        border: 2px solid #d3d2d2;
+        border-radius: 5px;
+        display: block;
+        font-size: 12px;
+        padding: 10px;
+        width: 37%;
+        margin-left: 4%;
+      }
+      .Payment-form-control input:focus{
+        outline: 0;
+      }
+      .Payment-form-control .success input{
+        border-color: #09c372;
+      }
+      .Payment-form-control .error input{
+        border-color: #ff3860;
+      }
+      .Payment-form-control .error{
+        color: #ff3860;
+        font-size: 9px;
+        height: 13px;
+      }
+    
+      .Payment-form-control label i{
+        margin-right: 6px;
+      }
+      .Payment-btn{
+        color: rgb(8, 8, 8);
+        background-color: wheat;
+        font-size: 18px;
+        margin-left: 17%;
+        width: 10%;
+        margin-top: 2%;
+        padding: 1%;
+        
+      }
+      .Payment-btn:hover{
+        color: black;
+        background-color: ghostwhite;
+        font-size: 20px;
+      padding: 1.2%;
+    }
+    /*
+    Confirmation css
+    */
+    .Confimation-h2{
+        font-size: 26px;
+        text-align: center;
+        font-style: inherit;
+        color: rgb(249, 218, 160);
+        margin-top: 3%;
+    }
+    .p1{
+        font-size: 18px;
+        font-style: oblique;
+        color: whitesmoke;
+        text-align: center;
+        margin-top: 1%;
+    }
+    .p2{
+        font-size: 18px;
+        font-style: oblique;
+        color: whitesmoke;
+        text-align: center;
+        margin-top: 0.5%;
+    }
+    .Confimation-Summarytable{
+        margin-top: 8%;
+        margin-left: 29%;
+        width: 550px;
+        height: 450px;
+        padding: 0;
+     }
+     .Confimation-Summarytable td{
+       border: 1px solid black;
+       border-radius: 5%;
+       text-align: left;
+       background-color: rgb(216, 216, 216);
+       color: solid black;
+     }
+     .Confimation-Tickets td{
+        background-color: gray;
+      }
+      .Confimation-Payable td{
+        background-color: gray;
+      }
+    
+    
+    

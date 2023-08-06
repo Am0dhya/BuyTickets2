@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Buyticket.css">
+</head>
+<body>
+    
+    <header>
+       
+        <div class="Header">
+        <img src="Images/Logo.png"  width="8%" height="100%">
+        <h1 class="Head1">Buy <a>Tickets.</a></h1>
+        
+         <ul>
+            <li><a href="#">Pages <i class="fas fa-caret-down"></i></a>
+            <div class="subMenu">
+                <ul>
+                    <li><a href="index.html">Home</a></li> 
+                    <li><a href="Turtle categories.html">Categories</a></li>
+                    <li><a href="Hikkaduwa.html">Hikkaduwa</a></li>
+                    <li><a href="Threats.html">Treats</a></li>
+                    <li><a href="Donate.html">Purchase</a></li>
+                </ul>
+            </div>
+            </li>
+            <li><a href="Buytickets2.html">Buy tickets</a></li>
+            <li><a href="DetailsPage.html">Details</a></li>
+            <li><a href="Payment.html">Payment</a></li>
+            <li><a href="Confirmation.html">Confirmation</a></li>
+         </ul>
+        </div>
+    </header>
+   
+    <table class="Buytickets-table">
+        <tr>
+            <th >Hour</th>
+            <th>Guest</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Normal</td>
+            <td>Foreigner Adult </td>
+            <td>10 USD</td>
+        </tr>
+        <tr>
+            <td>Peak</td>
+            <td>Foreigner Adult </td>
+            <td>13 USD</td>
+        </tr>
+        <tr>
+            <td>Normal</td>
+            <td>Foreigner Child  </td>
+            <td>5 USD</td>
+        </tr>
+        <tr>
+            <td>Peak</td>
+            <td>Foreigner Child  </td>
+            <td>8 USD</td>
+        </tr>
+        <tr>
+            <td>Normal</td>
+            <td>Sri Lankan Adult  </td>
+            <td>4 USD</td>
+        </tr>
+        <tr>
+            <td>Peak</td>
+            <td>Sri Lankan Adult </td>
+            <td>6 USD</td>
+        </tr>
+        <tr>
+            <td>Normal</td>
+            <td>Sri Lankan Child  </td>
+            <td>2 USD</td>
+        </tr>
+        <tr>
+            <td>Peak</td>
+            <td>Sri Lankan Child  </td>
+            <td>3 USD</td>
+        </tr>
+    </table> 
+   
+    <hr>
+    <div>
+        <table class="Buytickets-Summarytable">
+            <tr>
+                <td>Date</td>
+                <td id="Date"></td>
+            </tr>
+            <tr>
+                <td>Time</td>
+                <td id="Time">07.00am - 08.00am</td>
+            </tr>
+            <tr>
+                <td>Duration</td>
+                <td>1 hour <label id="duration2"></label></td>
+            </tr>
+            <tr class="Buytickets-Tickets">
+                <td>Tickets</td>
+                <td>Charges</td>
+            </tr>
+            <tr>
+                <td><label id="SLA"></label> SriLankan Adults</td>
+                <td><label id="SLAPrice"></label> USD</td>
+            </tr>
+            <tr>
+                <td><label id="SLC"></label> Srilankan Child</td>
+                <td><label id="SLCPrice"></label> USD</td>
+            </tr>
+            <tr>
+                <td> <label id="FA"></label> Foreigner Adult</td>
+                <td><label id="FAPrice"></label> USD</td>
+            </tr>
+            <tr>
+                <td> <label id="FC"></label> Foreigner Child</td>
+                <td><label id="FCPrice"></label> USD</td>
+            </tr>
+            <tr>
+                <td> <label id="Inf"></label> Infants</td>
+                <td>Free</td>
+            </tr>
+            <tr class="Buytickets-Payable">
+                <td>Total payable</td>
+                <td><label  id="Total"></label> USD</td>
+            </tr>
+            
+        </table>
+        <h2 class="pickaday">Pick a day</h2>
+    <div class="wrapper">
+        <header class="header">
+          <p class="current-date"></p>
+          <div class="icons">
+            <span id="prev" class="material-symbols-rounded">chevron_left</span>
+            <span id="next" class="material-symbols-rounded">chevron_right</span>
+          </div>
+        </header>
+        <div class="calendar">
+          <ul class="weeks">
+            <li>Sun</li>
+            <li>Mon</li>
+            <li>Tue</li>
+            <li>Wed</li>
+            <li>Thu</li>
+            <li>Fri</li>
+            <li>Sat</li>
+          </ul>
+          <ul class="days"></ul>
+        </div>
+      </div>
+
+
+      <h2 class="Buytickets-guests">Guests</h2>
+    <div class="Buytickets-Guests"><br>
+         <label class="guestlbl">Srilankan Adult</label>
+         <button id="dbtn1">-</button>
+         <label id="lbl1">0</label>
+         <button id="ibtn1">+</button><br><br>
+
+         <label class="guestlbl">Srilankan Child</label>
+         <button id="dbtn2">-</button>
+         <label id="lbl2">0</label>
+         <button id="ibtn2">+</button><br><br>
+
+         <label class="guestlbl">Foreigner Adult</label>
+         <button id="dbtn3">-</button>
+         <label id="lbl3">0</label>
+         <button id="ibtn3">+</button><br><br>
+
+         <label class="guestlbl">Foreigner Child</label>
+         <button id="dbtn4">-</button>
+         <label id="lbl4">0</label>
+         <button id="ibtn4">+</button><br><br>
+
+         <label class="guestlbl2">Infaunt</label>
+         <button id="dbtn5">-</button>
+         <label id="lbl5">0</label>
+         <button id="ibtn5">+</button><br><br>
+    </div>
+
+
+    <h2 class="Buytickets-duration"> Duration</h2>
+    <div class="Buytickets-selectbox">
+       <div class="Buytickets-select">
+        <span id="selected">Select</span>
+        </div>
+       <ul class="Buytickets-menu">
+        <li id="time1">07.00am - 08.00am (Normal)</li>
+        <li id="time2">08.00am - 09.00am (Normal)</li>
+        <li id="time3">09.00am - 10.00am (Normal)</li>
+        <li id="time4">10.00am - 11.00am (Peak)</li>
+        <li id="time5">11.00am - 12.00pm (Peak)</li>
+        <li id="time6">12.00pm - 13.00pm (Peak)</li>
+        <li id="time7">13.00pm - 14.00pm (Normal)</li>
+        <li id="time8">14.00pm - 15.00pm (Normal)</li>
+        <li id="time9">15.00pm - 16.00pm (Peak)</li>
+       <li id="time10">16.00pm - 17.00pm (Peak)</li>
+       <li id="time11">17.00pm - 18.00pm (Peak)</li>
+       </ul>
+    </div>
+    <div id="end">
+        <a href="DetailsPage.html"><button id="continueButton">Continue with purchase</button></a>
+</div>
+    </div>
+    
+
+ 
+    <footer>
+        <div class="BuyTicketFooter">
+            <div class="BuyTicket-col-1">
+                <h3>Visit us</h3>
+                <p>
+                    Hikkaduwa Turtle Conservation & Research Center<br>
+                    School Lane,<br>
+                    Nape (Behind the Police Station)<br>
+                    Kosgoda, Sri Lanka.
+
+                </p>
+              
+            </div>
+            <div class="BuyTicket-col-2">
+                <h3>About</h3>
+                <a href="index.html">Home</a>
+                <a href="Turtle categories.html">Categories</a>
+                <a href="Hikkaduwa.html">Hikkaduwa turtle hatchery</a>
+                <a href="Threats.html">Treats</a>
+                <a href="Donate.html">Purchase and donations</a>
+            </div>
+            <div class="BuyTicket-col-3">
+                <h3>Contact us</h3>
+                <p>Phone: +94 71 7879928<br>
+                   Email: info@htrcc.info</p>
+                   <div class="BuyTicket-socialicons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                   </div>
+                   
+            </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="Buyticket2.js"></script>
+</body>
+</html>

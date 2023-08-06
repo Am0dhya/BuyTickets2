@@ -1,0 +1,1874 @@
+.Homepage-Head {
+    text-align: center;
+    background-image: linear-gradient(#045c77, #012733);
+    color: white;
+    padding: 1.5em;
+    margin-bottom: 2px;
+    margin-top: 0;
+}
+body{
+    background-color: rgb(237, 230, 230);
+    padding: 1em;
+}
+.Homepage-List ul{
+    float: right;
+    list-style-type: none;
+    margin: 25px;
+}
+.Homepage-List ul li{
+    display: inline-block;
+}
+.Homepage-List ul li a{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.Homepage-List ul li a:hover{
+    background-image: linear-gradient(#3b7689, #012733);
+    color: white;
+    
+}
+
+hr{
+    width: 50%;
+    float: right;
+    margin-top: 4%;
+  }
+  .Homepage-Head2{
+    margin-bottom: 3%;
+    margin-top: 3%;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fefefe;
+    background-image: linear-gradient(#336878, #012d3a);
+    margin-right: 22%;
+    padding: 0.5em;
+  }
+  .Para1 {
+    margin-right: 25%;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.8;
+    color: #121111;
+    background-color: rgb(237, 230, 230);
+  }
+  .container1 p{
+    margin-left: 50px;
+    margin-right: 600px;
+    padding: 20px;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.8;
+    color: #121111;
+    background-color: rgb(218, 218, 218);
+  }
+
+  .container2 p{
+    margin-left: 50px;
+    margin-right: 600px;
+    padding: 20px;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.8;
+    color: #121111;
+    background-color: rgb(218, 218, 218);
+  }
+  .container3 p{
+    margin-left: 50px;
+    margin-right: 600px;
+    padding: 20px;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.8;
+    color: #121111;
+    background-color: rgb(218, 218, 218);
+  }
+.Homepage-head3{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #045c77;
+    margin-top: 5%;
+}
+.container1 img{
+  float: right;
+  width: 28%;
+  height: 28%;
+  margin-left: 5px;
+  margin-bottom: 3%;
+  margin-right: 100px;
+  margin-top: 20px;
+}
+
+.container2 img{
+ float: right;
+ width: 28%;
+ height: 28%;
+ margin-left: 5px;
+ margin-bottom: 3%;
+ margin-right: 100px;
+ margin-top: 20px;
+}
+.container3 img{
+ float: right;
+ width: 32%;
+ height: 34%;
+ margin-left: 5px;
+ margin-bottom: 3%;
+ margin-right: 100px;
+ margin-top: 20px;
+}
+.Homepage-footer{
+  margin-top: 100px;
+  width: 100%;
+  padding: 5em;
+  background-image: linear-gradient(#045c77, #012733);
+  color: #efefef;
+  display: flex;
+ 
+}
+.Homepage- div{
+  text-align: center;
+}
+.Homepage-col-1 h3{
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  font-size: 28px;
+  color:  rgb(16, 9, 82);
+  text-align: center;
+}
+.Homepage-col-2 h3{
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  font-size: 28px;
+  color:  rgb(16, 9, 82);
+  text-align: center;
+}
+.Homepage-col-3 h3{
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  font-size: 28px;
+  color:  rgb(16, 9, 82);
+  text-align: center;
+}
+.Homepage-col-1{
+  margin-right: 15%;
+  margin-left: 5%;
+}
+.Homepage-col-2{
+  margin-right: 15%;
+}
+.Homepage-col-3{
+  margin-right: 15%;
+}
+
+.Homepage-col-1 ul li{
+  display: block;
+}
+
+.Homepage-col-2 a{
+ display: block;
+ text-decoration: none;
+ color: #efefef;
+ margin-bottom: 10px;
+ text-align: center;
+}
+.Homepage-col-2 a:hover{
+  color:  rgb(16, 9, 82);
+}
+.Homepage-socialicons{
+  margin-top: 30px;
+}
+.Homepage-socialicons i{
+  margin: 10px;
+  font-size: 35px;
+  cursor: pointer;
+
+}
+.Homepage-socialicons i:hover{
+  color:  rgb(16, 9, 82);
+}
+
+
+
+
+.Turtlehatchery-Head1{
+  text-align: center;
+  background-image: linear-gradient(#045c77, #012733);
+  color: white;
+  padding: 1em;
+  margin-bottom: 2px;
+  margin-top: 0%;
+}
+.Turtlehatchery-List ul{
+  float: right;
+  list-style-type: none;
+  margin: 25px;
+}
+.Turtlehatchery-List ul li{
+  display: inline-block;
+}
+.Turtlehatchery-List ul li a{
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  
+}
+.Turtlehatchery-List ul li a:hover{
+  background-image: linear-gradient(#3b7689, #012733);
+  color: white;
+}
+.Turtlehatchery-Head2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    color: #045c77;
+    margin-top: 5%;
+    text-align: center;
+}
+.Turtlehatchery-Para1{
+  margin-right: 5%;
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.8;
+  color: #121111;
+  line-height: 1.8;
+  background-color: rgb(218, 218, 218);
+  margin-left: 60px;
+}
+.Turtlehatchery-Head3{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 23px;
+  color: #000000;
+  margin-top: 5%;
+}
+.Turtlehatchery-Container1 p{
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.8;
+  color: #121111;
+  background-color: rgb(237, 230, 230);
+  margin-left: 35px;
+  margin-right: 600px;
+}
+.Turtlehatchery-Container1 img{
+  float: right;
+  width: 28%;
+  height: 28%;
+  margin-left: 5px;
+  margin-bottom: 3%;
+  margin-right: 100px;
+ margin-top: -250px;
+}
+.Turtlehatchery-Container1 button{
+  float: right;
+  margin-left: 90%;
+  background-color: orange;
+  color: #000;
+}
+.Turtlehatchery-Container2 p{
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.8;
+  color: #121111;
+  background-color: rgb(237, 230, 230);
+  margin-left: 35px;
+  margin-right: 600px;
+}
+.Turtlehatchery-Container2 img{
+  float: right;
+  width: 28%;
+  height: 28%;
+  margin-left: 5px;
+  margin-bottom: 3%;
+  margin-right: 100px;
+ margin-top: -250px;
+}
+.Turtlehatchery-Container2 button{
+  float: right;
+  margin-left: 90%;
+  background-color: orange;
+  color: #000;
+}
+.Turtlehatchery-Container3 p{
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.8;
+  color: #121111;
+  background-color: rgb(237, 230, 230);
+  margin-left: 35px;
+  margin-right: 600px;
+}
+.Turtlehatchery-Container3 img{
+  float: right;
+  width: 28%;
+  height: 28%;
+  margin-left: 5px;
+  margin-bottom: 3%;
+  margin-right: 100px;
+ margin-top: -250px;
+}
+.Turtlehatchery-Container3 button{
+  float: right;
+  margin-left: 90%;
+  background-color: orange;
+  color: #000;
+}
+.Turtlehatchery-Container4 p{
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.8;
+  color: #121111;
+  background-color: rgb(237, 230, 230);
+  margin-left: 35px;
+  margin-right: 600px;
+}
+.Turtlehatchery-Container4 img{
+  float: right;
+  width: 28%;
+  height: 28%;
+  margin-left: 5px;
+  margin-bottom: 3%;
+  margin-right: 100px;
+ margin-top: -250px;
+}
+.Turtlehatchery-Container4 button{
+  float: right;
+  margin-left: 90%;
+  background-color: orange;
+  color: #000;
+}
+.Turtlehatchery-table{
+  margin-top: 10%;
+}
+.Turtlehatchery-table, th, td{
+  border: 1px solid;
+  text-align: center
+}
+.Turtlehatchery-table th{
+  background-color: #045c77;
+    padding: 25px;
+}
+.Turtlehatchery-table td{
+  background-color: rgb(154, 226, 242);
+    padding: 10px;
+}
+.Turtlehatchery-footer{
+  margin-top: 100px;
+  width: 100%;
+  padding: 5em;
+  background-image: linear-gradient(#045c77, #012733);
+  color: #efefef;
+  display: flex;
+}
+.Turtlehatchery- div{
+  text-align: center;
+}
+.Turtlehatchery-col-1 h3{
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  font-size: 28px;
+  color:  rgb(16, 9, 82);
+  text-align: center;
+}
+.Turtlehatchery-col-2 h3{
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  font-size: 28px;
+  color:  rgb(16, 9, 82);
+  text-align: center;
+}
+.Turtlehatchery-col-3 h3{
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  font-size: 28px;
+  color:  rgb(16, 9, 82);
+  text-align: center;
+}
+.Turtlehatchery-col-1{
+  margin-right: 15%;
+  margin-left: 5%;
+}
+.Turtlehatchery-col-2{
+  margin-right: 15%;
+}
+.Turtlehatchery-col-3{
+  margin-right: 15%;
+}
+
+.Turtlehatchery-col-1 ul li{
+  display: block;
+}
+
+.Turtlehatchery-col-2 a{
+ display: block;
+ text-decoration: none;
+ color: #efefef;
+ margin-bottom: 10px;
+ text-align: center;
+}
+.Turtlehatchery-col-2 a:hover{
+  color:  rgb(16, 9, 82);
+}
+.Turtlehatchery-socialicons{
+  margin-top: 30px;
+}
+.Turtlehatchery-socialicons i{
+  margin: 10px;
+  font-size: 35px;
+  cursor: pointer;
+
+}
+.Turtlehatchery-socialicons i:hover{
+  color:  rgb(16, 9, 82);
+}
+
+
+
+
+.Hikkaduwa-Head1{
+  text-align: center;
+  background-image: linear-gradient(#045c77, #012733);
+  color: white;
+  padding: 1em;
+  margin-bottom: 2px;
+  margin-top: 0%;
+}
+.Hikkaduwa-List ul{
+  float: right;
+  list-style-type: none;
+  margin: 25px;
+}
+.Hikkaduwa-List ul li{
+  display: inline-block;
+}
+.Hikkaduwa-List ul li a{
+  color: black;
+    background-color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.Hikkaduwa-List ul li a:hover{
+  background-image: linear-gradient(#3b7689, #012733);
+  color: white;
+}
+.Hikkaduwa-Para1{
+  margin-left: 10%;
+    text-align: center;
+    margin-right: 10%;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.8;
+    color: #121111;
+    background-color: rgb(237, 230, 230);
+}
+.Hikkaduwa-map{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+iframe{
+  width: 80%;
+  height: 500px;
+}
+
+
+.Hikkaduwa-BN button{
+  margin-left: 43%;
+  background-color: #045c77;
+  color: white;
+  font-size: 28px;
+}
+
+.Hikkaduwa-footer{
+  margin-top: 100px;
+  width: 100%;
+  padding: 5em;
+  background-image: linear-gradient(#045c77, #012733);
+  color: #efefef;
+  display: flex;
+}
+.Hikkaduwa-div{
+  text-align: center;
+}
+.Hikkaduwa-col-1 h3{
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  font-size: 28px;
+  color:  rgb(16, 9, 82);
+  text-align: center;
+}
+.Hikkaduwa-col-2 h3{
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  font-size: 28px;
+  color:  rgb(16, 9, 82);
+  text-align: center;
+}
+.Hikkaduwa-col-3 h3{
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  font-size: 28px;
+  color:  rgb(16, 9, 82);
+  text-align: center;
+}
+.Hikkaduwa-col-1{
+  margin-right: 15%;
+  margin-left: 5%;
+}
+.Hikkaduwa-col-2{
+  margin-right: 15%;
+}
+.Hikkaduwa-col-3{
+  margin-right: 15%;
+}
+
+.Hikkaduwa-col-1 ul li{
+  display: block;
+}
+
+.Hikkaduwa-col-2 a{
+ display: block;
+ text-decoration: none;
+ color: #efefef;
+ margin-bottom: 10px;
+ text-align: center;
+}
+.Hikkaduwa-col-2 a:hover{
+  color:  rgb(16, 9, 82);
+}
+.Hikkaduwa-socialicons{
+  margin-top: 30px;
+}
+.Hikkaduwa-socialicons i{
+  margin: 10px;
+  font-size: 35px;
+  cursor: pointer;
+
+}
+.Hikkaduwa-socialicons i:hover{
+  color:  rgb(16, 9, 82);
+}
+
+
+
+
+
+
+
+
+.Treats-Head1{
+  text-align: center;
+  background-image: linear-gradient(#045c77, #012733);
+  color: white;
+  padding: 1em;
+  margin-bottom: 2px;
+  margin-top: 0%;
+}
+
+.Treats-List ul{
+  float: right;
+  list-style-type: none;
+  margin: 25px;
+}
+.Treats-List ul li{
+  display: inline-block;
+}
+.Treats-List ul li a{
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+.Treats-List ul li a:hover{
+    background-image: linear-gradient(#3b7689, #012733);
+    color: white;
+}
+.Treats-Head2{
+  margin-top: 10%;
+  color: #045c77;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 28px;
+  color: #045c77;
+  text-align: center;
+}
+.Treats-Head2 img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+.Treats-Head2 p{
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.8;
+  color: #121111;
+  background-color: rgb(237, 230, 230);
+  margin-left: 35px;
+  margin-right: 60px;
+}
+.Treats-Firstdiv ul li{
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.8;
+  color: #121111;
+  background-color: rgb(237, 230, 230);
+  margin-left: 35px;
+  margin-right: 60px;
+}
+.Treats-Seconddiv ul li{
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.8;
+  color: #121111;
+  background-color: rgb(237, 230, 230);
+  margin-left: 35px;
+  margin-right: 60px;
+}
+.Treats-Thirddiv ul li{
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.8;
+  color: #121111;
+  background-color: rgb(237, 230, 230);
+  margin-left: 35px;
+  margin-right: 60px;
+}
+.Treats-Firstdiv button{
+  margin-top: 4%;
+  margin-left: 45%;
+  background-color: rgb(80, 206, 206);
+  color: black;
+  font-size: 15px;
+}
+.Treats-Firstdiv button a{
+  text-decoration: none;
+  color: black;
+}
+.Treats-Seconddiv button{
+  margin-top: 4%;
+  margin-left: 45%;
+  background-color: rgb(80, 206, 206);
+  color: black;
+  font-size: 15px;
+}
+.Treats-Seconddiv button a{
+  text-decoration: none;
+  color: black;
+}
+.Treats-Thirddiv button{
+  margin-top: 4%;
+  margin-left: 45%;
+  background-color: rgb(80, 206, 206);
+  color: black;
+  font-size: 15px;
+}
+.Treats-Thirddiv button a{
+  text-decoration: none;
+  color: black;
+}
+.Treats-Identity p{
+  color:rgb(237, 230, 230);
+  background-color: rgb(237, 230, 230);
+}
+.Treats-footer{
+  background-image: linear-gradient(#045c77, #012733);
+ padding: 4em;
+ margin-top: 30px;
+}
+.Treats-designer{
+background-image: linear-gradient(#045c77, #012733);
+color: white;
+}
+.Treats-Images img{
+  margin-left: 12%;
+  margin-right: 12%;
+  border-radius: 8px;
+  width: 20%;
+  margin-top: 5%;
+  border: 5px solid rgb(2, 27, 76);
+  padding: 10px;
+  display: inline-block;
+}
+.Treats-Images a img:hover{
+  transform: scale(1.2) rotate(.3deg);
+  background-color: #52d6fb;
+}
+.Treats-ImagesPara1{
+  color: rgb(14, 14, 14);
+  font-size: 18px;
+  margin-left: 15%;
+  margin-right: 10%;
+  margin-top: 2%;
+  display: inline-block;
+}
+.Treats-ImagesPara2{
+  color: rgb(16, 16, 16);
+  font-size: 18px;
+  margin-left: 22%;
+  margin-right: 10%;
+  margin-top: 2%;
+  display: inline-block;
+  
+}
+.Treats-footer{
+  margin-top: 100px;
+  width: 100%;
+  padding: 5em;
+  background-image: linear-gradient(#045c77, #012733);
+  color: #efefef;
+  display: flex;
+}
+.Treats-div{
+  text-align: center;
+}
+.Treats-col-1 h3{
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  font-size: 28px;
+  color:  rgb(16, 9, 82);
+  text-align: center;
+}
+.Treats-col-2 h3{
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  font-size: 28px;
+  color:  rgb(16, 9, 82);
+  text-align: center;
+}
+.Treats-col-3 h3{
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  font-size: 28px;
+  color:  rgb(16, 9, 82);
+  text-align: center;
+}
+.Treats-col-1{
+  margin-right: 15%;
+  margin-left: 5%;
+}
+.Treats-col-2{
+  margin-right: 15%;
+}
+.Treats-col-3{
+  margin-right: 15%;
+}
+
+.Treats-col-1 ul li{
+  display: block;
+}
+
+.Treats-col-2 a{
+ display: block;
+ text-decoration: none;
+ color: #efefef;
+ margin-bottom: 10px;
+ text-align: center;
+}
+.Treats-col-2 a:hover{
+  color:  rgb(16, 9, 82);
+}
+.Treats-socialicons{
+  margin-top: 30px;
+}
+.Treats-socialicons i{
+  margin: 10px;
+  font-size: 35px;
+  cursor: pointer;
+
+}
+.Treats-socialicons i:hover{
+  color:  rgb(16, 9, 82);
+}
+
+
+.Kosgoda-body{
+  min-height: 100vh;
+  background-image: url(Images/imageskosgoda.jpeg);
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+
+}
+.Kosgoda-header{
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  background-color: #ffffff;
+  box-shadow: 0 5px 10px rgba(219, 13, 13, 0.1);
+  padding: 0px 7%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+}
+.Kosgoda-header .logo{
+  font-weight: bolder;
+  font-size: 25px;
+  color: #333;
+}
+.Kosgoda-header .head ul{
+  list-style: none;
+}
+.Kosgoda-header .head ul li{
+  position: relative;
+  float: left;
+}
+.Kosgoda-header .head ul li a{
+  font-size: 20px;
+  padding: 20px;
+  color: #333;
+  display: block;
+  text-decoration: none;
+  border-radius: 8px;
+}
+.Kosgoda-header .head ul li a:hover{
+  color: #fff;
+  background-color: #333;
+}
+.Kosgoda-header .head ul li ul{
+  position: absolute;
+  left: 0;
+  width: 180px;
+  background: #fff;
+  display: none;
+}
+.Kosgoda-header .head ul li ul li{
+  width: 100%;
+  border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.Kosgoda-header .head ul li:hover > ul{
+display: initial;
+}
+.Kosgoda-Head1{
+  text-align: center;
+  color: #f7f3f3;
+  font-size: 4em;
+  margin-top: 10%;
+  margin-left: 10%;
+  border: #000;
+}
+
+.Kosgoda-Head2{
+  text-align: center;
+    color:#333;
+    font-size: 30px;
+    margin-top: 4%;
+    background-color: wheat;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 8px;
+}
+.Kosgoda-Para1{
+  color: black;
+    font-size: large;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 18%;
+    margin-right: 3%;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.8;
+    background-color:#ffffff;
+    opacity: 0.65;
+}
+.Kosgoda-List{
+  background-color: #ffffff;
+    opacity: 0.65;
+    margin-top: 2%;
+    margin-left: 18%;
+    margin-right: 3%;
+    margin-right: 17%;
+    opacity: 0.65;
+    color: black;
+}
+.Kosgoda-List ul {
+  text-align: center;
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.8;
+}
+.Kosgoda-List ul li{
+  display: block;
+}
+.Kosgoda-footer{
+  margin-top: 150px;
+  width: 90%;
+  padding: 5em;
+  background-color: #333;
+  color: #efefef;
+  display: flex;
+  margin-left: 0%;
+}
+.Kosgoda-footer div{
+  text-align: center;
+}
+.Kosgoda-footer div h3{
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  font-size: 28px;
+  color: wheat;
+}
+.Kosgoda-col-1{
+  margin-right: 10%;
+}
+.Kosgoda-col-2{
+  margin-right: 10%;
+}
+.Kosgoda-col-3{
+  margin-right: 10%;
+}
+
+.Kosgoda-col-1 ul li{
+  display: block;
+}
+
+.Kosgoda-col-2 a{
+ display: block;
+ text-decoration: none;
+ color: #efefef;
+ margin-bottom: 10px;
+}
+.Kosgoda-col-2 a:hover{
+  color:  wheat;
+}
+.Kosgoda-socialicons{
+  margin-top: 30px;
+}
+.Kosgoda-socialicons i{
+  margin: 10px;
+  font-size: 35px;
+  cursor: pointer;
+
+}
+.Kosgoda-socialicons i:hover{
+  color:  wheat;
+}
+
+
+.Donate-body{
+  background-color: #f5f5f5;
+}
+
+.Donate-Head1 {
+  text-align: center;
+  background-image: linear-gradient(#045c77, #012733);
+  color: white;
+  padding: 1.5em;
+  margin-bottom: 2px;
+  margin-top: 0;
+}
+.Donate-List ul{
+  float: right;
+  list-style-type: none;
+  margin: 25px;
+}
+.Donate-List ul li{
+  display: inline-block;
+}
+.Donate-List ul li a{
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+.Donate-List ul li a:hover{
+  background-image: linear-gradient(#3b7689, #012733);
+  color: white;
+}
+.Donate-Head2{
+  font-size: 32px;
+  color: rgb(4, 4, 4);
+  text-align: center;
+  margin-top: 10%;
+}
+.Donate-Form{
+  width: 60%;
+  padding: 1em;
+  margin: 10px auto;
+  box-shadow: 1px 1px 10px rgb(76, 77, 78);
+  margin-top: 10%;
+  margin-bottom: 5%;  
+}
+
+.Donate-Form h2{
+  color: #0b313b;
+  font-size: 32px;
+  padding: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  margin-top: 2%;
+  border: 2px #333;
+  background-color: #486f7b;
+  text-align: center;
+}
+.Donate-Head4{
+  color: #045c77;
+}
+.Donate-input-group{
+  margin-bottom: 8px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding: 5px 0;
+}
+.Donate-input-box{
+  width: 100%;
+  margin-right: 12px;
+  position: relative;
+}
+.Donate-input-box :last-child{
+  margin-right: 0;
+}
+.Donate-name{
+  padding: 10px 5px 10px 20px;
+  width: 80%;
+  background-color: #fcfcfc;
+  border: 1px solid black;
+  outline: none;
+  letter-spacing: 1px;
+  transition: 0.3s;
+  border-radius: 5px;
+  color: #333;
+}
+.Donate-name:focus, .Donate-dob:focus{
+  -webkit-box-shadow:0 0 2px 1px rgb(160, 204, 241);
+  -moz-box-shadow:0 0 2px 1px rgb(160, 204, 241);
+  box-shadow:0 0 2px 1px rgb(160, 204, 241);
+  border: 1px rgb(160, 204, 241);
+}
+.Donate-input-box .icon{
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0px;
+  left: -5px;
+  bottom: 0px;
+  color: #333;
+  background-color: #f1f1f1;
+  border-radius: 2px 0 0 2px;
+  transition: 0.3s;
+  font-size: 20px;
+  pointer-events: none;
+  border: 1px solid black;
+  border-right: none;
+}
+.Donate-name:focus + .icon{
+   background-color: #b9bcbd;
+   color: #fff;
+   border-right:1px solid #b9bcbd ;
+   border: none;
+   transition: 1s;
+}
+.Donate-dob{
+  width: 20%;
+  padding: 14px;
+  text-align: center;
+  background-color: #fcfcfc;
+  transition: 0.3s;
+  outline: none;
+  border: 1px solid #c0bfbf;
+  border-radius: 3px;
+
+}
+
+.Donate-button button{
+  width: 100%;
+  background: transparent;
+  background-color: #0b313b;
+  color: white;
+  border: none;
+  padding: 18px;
+  border-radius: 8px;
+  font-size: 16px;
+  transition:  0.8s ;
+
+}
+
+.Donate-button button:hover{
+  cursor: pointer;
+  background-color: #1b7086;
+  ;
+}
+.Donate-head5{
+  text-align: center;
+  color: #012d3a;
+  font-size: 32px;
+  margin-bottom: 3%;
+}
+.Donate-slider{
+  position: relative;
+  width: 30%;
+  overflow: hidden;
+  margin-left: 400px;
+  margin-top: 100px;
+  background-color: #f5f5f5;
+  
+}
+.Donate-Gallery1{
+  display: flex;
+  width: 100%;
+  margin-bottom: 10%;
+ 
+}
+.Donate-Gallery1 img{
+  height: 400px;
+  width: 100%;
+  transition: all 0.15s ease;
+  box-shadow: 1px 1px 20px rgba(0,0,0,.1);
+  float: left;
+  text-align: center;
+  
+}
+.Donate-Gallery1 img:hover{
+  transform: scale(1.1);
+}
+.Donate-Gallery1 input{
+  display: none;
+}
+.Donate-dots {
+  display: flex;
+  justify-content: center;
+  margin: 3px;
+}
+.Donate-dots label{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: solid rgb(10, 11, 11) 3px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  margin: 5px;
+  
+}
+.Donate-dots label:hover{
+  background-color:rgb(16, 9, 82) }
+
+#gal1:checked ~ .m1{
+  margin-left: 0;
+}
+#gal2:checked ~ .m2{
+  margin-left: -100%;
+}
+#gal3:checked ~ .m3{
+  margin-left: -200%;
+}
+#gal4:checked ~ .m4{
+  margin-left: -300%;
+}
+
+.Donate-Gallery2{
+  display: flex;
+  width: 100%;
+  margin-bottom: 10%;
+  margin-top: 8%;
+}
+.Donate-Gallery2 img{
+  height: 400px;
+  width: 100%;
+  transition: all 0.15s ease;
+}
+.Donate-Gallery2 img:hover{
+  transform: scale(1.1);
+}
+.Donate-Gallery2 input{
+  display: none;
+}
+.Donate-dots {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+.Donate-dots label{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: solid rgb(10, 11, 11) 3px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  margin: 5px;
+}
+.Donate-dots label:hover{
+  background-color:rgb(16, 9, 82) }
+  #Gal1:checked ~ .m1{
+    margin-left: 0;
+  }
+  #Gal2:checked ~ .m2{
+    margin-left: -100%;
+  }
+  #Gal3:checked ~ .m3{
+    margin-left: -200%;
+  }
+  #Gal4:checked ~ .m4{
+    margin-left: -300%;
+  }
+  .Donate-Gallery3{
+    display: flex;
+    width: 100%;
+    margin-bottom: 10%;
+    margin-top: 8%;
+  }
+  .Donate-Gallery3 img{
+    height: 400px;
+    width: 100%;
+    transition: all 0.15s ease;
+    margin-top: 15%;
+  }
+  .Donate-Gallery3 img:hover{
+    transform: scale(1.1);
+  }
+  .Donate-Gallery3 input{
+    display: none;
+  }
+  .Donate-dots {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+  }
+  .Donate-dots label{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid rgb(10, 11, 11) 3px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+  }
+  .Donate-dots label:hover{
+    background-color:rgb(16, 9, 82) }
+  
+  #img1:checked ~ .m1{
+    margin-left: 0;
+  }
+  #img2:checked ~ .m2{
+    margin-left: -100%;
+  }
+  #img3:checked ~ .m3{
+    margin-left: -200%;
+  }
+  #img4:checked ~ .m4{
+    margin-left: -300%;
+  }
+
+  .Donate-Gallery4{
+    display: flex;
+    width: 100%;
+    margin-bottom: 10%;
+    margin-top: 8%;
+  }
+  .Donate-Gallery4 img{
+    height: 400px;
+    width: 100%;
+    transition: all 0.15s ease;
+    margin-top: 15%;
+  }
+  .Donate-Gallery4 img:hover{
+    transform: scale(1.1);
+  }
+  .Donate-Gallery4 input{
+    display: none;
+  }
+  .Donate-dots {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+  }
+  .Donate-dots label{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid rgb(10, 11, 11) 3px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+    
+  }
+  .Donate-dots label:hover{
+    background-color:rgb(16, 9, 82) }
+  
+  #Img1:checked ~ .m1{
+    margin-left: 0;
+  }
+  #Img2:checked ~ .m2{
+    margin-left: -100%;
+  }
+  #Img3:checked ~ .m3{
+    margin-left: -200%;
+  }
+  #Img4:checked ~ .m4{
+    margin-left: -300%;
+  }
+  
+ .GalleryPara p {
+    font-family:cursive;
+    font-size: 18px;
+    margin-left: 2%;
+    background-color: #c0bbbb;
+    color: black;
+    line-height: 1.5;
+    padding: 10px;
+}
+ .GalleryPara li{
+  font-family: sans-serif;
+  font-size: 17px;
+  margin-left: 2%;
+  background-color: #f5f5f5;
+  color: black;
+  line-height: 1;
+  padding: 10px;
+  display: block;
+}
+.Donate-buy button{
+  width: 100%;
+  background: transparent;
+  background-color: #0b313b;
+  color: white;
+  border: none;
+  padding: 18px;
+  border-radius: 8px;
+  font-size: 16px;
+  transition:  0.8s ;
+}
+.Donate-buy button a{
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+.Donate-buy button:hover{
+  cursor: pointer;
+  background-color: #1b7086;
+}
+
+
+.Donate-footer{
+  margin-top: 50px;
+  width: 100%;
+  padding: 5em;
+  background-image: linear-gradient(#045c77, #012733);
+  color: #efefef;
+  display: flex;
+ 
+}
+.Donate- div{
+  text-align: center;
+}
+.Donate-col-1 h3{
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  font-size: 28px;
+  color:  rgb(16, 9, 82);
+  text-align: center;
+}
+.Donate-col-2 h3{
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  font-size: 28px;
+  color:  rgb(16, 9, 82);
+  text-align: center;
+}
+.Donate-col-3 h3{
+  font-weight: 300;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  font-size: 28px;
+  color:  rgb(16, 9, 82);
+  text-align: center;
+}
+.Donate-col-1{
+  margin-right: 15%;
+  margin-left: 5%;
+}
+.Donate-col-2{
+  margin-right: 15%;
+}
+.Donate-col-3{
+  margin-right: 15%;
+}
+
+.Donate-col-1 ul li{
+  display: block;
+}
+
+.Donate-col-2 a{
+ display: block;
+ text-decoration: none;
+ color: #efefef;
+ margin-bottom: 10px;
+ text-align: center;
+}
+.Donate-col-2 a:hover{
+  color:  rgb(16, 9, 82);
+}
+.Donate-socialicons{
+  margin-top: 30px;
+}
+.Donate-socialicons i{
+  margin: 10px;
+  font-size: 35px;
+  cursor: pointer;
+
+}
+.Donate-socialicons i:hover{
+  color:  rgb(16, 9, 82);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  .Homepage-List ul{
+    float: right;
+    list-style-type: none;
+    margin: 8px;
+  }
+  .Homepage-List ul li{
+    display: inline-block;
+  }
+  .Homepage-List ul li a{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    padding: 3px 6px;
+    
+  }
+  .Homepage-List ul li a:hover{
+    background-image: linear-gradient(#3b7689, #012733);
+    color: white;
+  }
+  .container1 p{
+    margin-left: 20px;
+    margin-right: 20%;
+    padding: 10px;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    color: #121111;
+    background-color: rgb(218, 218, 218);
+  }
+  .container1 img{
+    float: right;
+    width: 32%;
+    height: 32%;
+    margin-left: 5px;
+    margin-bottom: 3%;
+    margin-right: 20px;
+    margin-top: 20px;
+ }
+ .container2 p{
+  margin-left: 20px;
+  margin-right: 20%;
+  padding: 10px;
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.5;
+  color: #121111;
+  background-color: rgb(218, 218, 218);
+}
+.container2 img{
+  float: right;
+  width: 32%;
+  height: 32%;
+  margin-left: 5px;
+  margin-bottom: 3%;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.container3 p{
+margin-left: 20px;
+margin-right: 20%;
+padding: 10px;
+font-size: 16px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+line-height: 1.5;
+color: #121111;
+background-color: rgb(218, 218, 218);
+}
+.container3 img{
+float: right;
+width: 32%;
+height: 32%;
+margin-left: 5px;
+margin-bottom: 3%;
+margin-right: 20px;
+margin-top: 20px;
+}
+.Homepage-footer{
+  background-image: linear-gradient(#045c77, #012733);
+ padding: 3em;
+ margin-top: 15px;
+ margin-bottom: 2%;
+}
+.Homepage-designer{
+color: white;
+}
+.Homepage-footer ul{
+  float: right;
+  list-style-type: none;
+  margin: 15px;
+}
+.Homepage-footer ul li{
+  display: inline-block;
+}
+.Homepage-footer ul li a{
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  
+}
+.Homepage-footer ul li a:hover{
+  background-image: linear-gradient(#3b7689, #012733);
+  color: white;
+}
+
+
+.Turtlehatchery-List ul{
+  float: right;
+  list-style-type: none;
+  margin: 10px;
+}
+.Turtlehatchery-List ul li{
+  display: inline-block;
+}
+.Turtlehatchery-List ul li a{
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  padding: 3px 6px;
+  
+}
+.Turtlehatchery-List ul li a:hover{
+  background-image: linear-gradient(#3b7689, #012733);
+  color: white;
+}
+.Turtlehatchery-Container1 p{
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.5;
+  color: #121111;
+  background-color: rgb(237, 230, 230);
+  margin-left: 20px;
+    margin-right: 20%;
+}
+.Turtlehatchery-Container1 img{
+  float: right;
+   width: 28%;
+   height: 28%;
+   margin-left: 5px;
+   margin-bottom: 3%;
+   margin-right: 1px;
+  margin-top: -250px;
+}
+.Turtlehatchery-Container1 button{
+  float: right;
+  margin-bottom: 5%;
+  margin-left: 90%;
+  background-color: orange;
+  color: #000;
+}
+.Turtlehatchery-Container2 p{
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.5;
+  color: #121111;
+  background-color: rgb(237, 230, 230);
+  margin-left: 20px;
+    margin-right: 20%;
+}
+.Turtlehatchery-Container2 img{
+  float: right;
+   width: 28%;
+   height: 28%;
+   margin-left: 5px;
+   margin-bottom: 3%;
+   margin-right: 1px;
+  margin-top: -150px;
+}
+.Turtlehatchery-Container2 button{
+  float: right;
+  margin-bottom: 5%;
+  margin-left: 90%;
+  background-color: orange;
+  color: #000;
+}
+.Turtlehatchery-Container3 p{
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.5;
+  color: #121111;
+  background-color: rgb(237, 230, 230);
+  margin-left: 20px;
+    margin-right: 20%;
+}
+.Turtlehatchery-Container3 img{
+  float: right;
+   width: 28%;
+   height: 28%;
+   margin-left: 5px;
+   margin-bottom: 3%;
+   margin-right: 1px;
+  margin-top: -150px;
+}
+.Turtlehatchery-Container3 button{
+  float: right;
+  margin-bottom: 5%;
+  margin-left: 90%;
+  background-color: orange;
+  color: #000;
+}
+.Turtlehatchery-Container4 p{
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.5;
+  color: #121111;
+  background-color: rgb(237, 230, 230);
+  margin-left: 20px;
+    margin-right: 20%;
+}
+.Turtlehatchery-Container4 img{
+  float: right;
+   width: 28%;
+   height: 28%;
+   margin-left: 5px;
+   margin-bottom: 3%;
+   margin-right: 1px;
+  margin-top: -150px;
+}
+.Turtlehatchery-Container4 button{
+  float: right;
+  margin-bottom: 5%;
+  margin-left: 90%;
+  background-color: orange;
+  color: #000;
+}
+.Turtlehatchery-footer{
+  background-image: linear-gradient(#045c77, #012733);
+ padding: 3em;
+ margin-top: 15px;
+ margin-bottom: 2%;
+}
+.Turtlehatchery-designer{
+color: white;
+}
+.Turtlehatchery-footer ul{
+  float: right;
+  list-style-type: none;
+  margin: 15px;
+}
+.Turtlehatchery-footer ul li{
+  display: inline-block;
+}
+.Turtlehatchery-footer ul li a{
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  
+}
+.Turtlehatchery-footer ul li a:hover{
+  background-image: linear-gradient(#3b7689, #012733);
+  color: white;
+}
+
+
+
+.Hikkaduwa-List ul{
+  float: right;
+  list-style-type: none;
+  margin: 10px;
+}
+.Hikkaduwa-List ul li{
+  display: inline-block;
+}
+.Hikkaduwa-List ul li a{
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  padding: 3px 6px;
+  
+}
+.Hikkaduwa-List ul li a:hover{
+  background-image: linear-gradient(#3b7689, #012733);
+  color: white;
+}
+.Hikkaduwa-footer{
+  background-image: linear-gradient(#045c77, #012733);
+ padding: 3em;
+ margin-top: 15px;
+ margin-bottom: 2%;
+}
+.Hikkaduwa-footer ul{
+  float: right;
+  list-style-type: none;
+  margin: 15px;
+}
+.Hikkaduwa-footer ul li{
+  display: inline-block;
+}
+.Hikkaduwa-footer ul li a{
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  
+}
+.Hikkaduwa-footer ul li a:hover{
+  background-image: linear-gradient(#3b7689, #012733);
+  color: white;
+}
+
+
+.Treats-List ul{
+  float: right;
+  list-style-type: none;
+  margin: 10px;
+}
+.Treats-List ul li{
+  display: inline-block;
+}
+.Treats-List ul li a{
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  padding: 3px 6px;
+  
+}
+.Treats-List ul li a:hover{
+  background-image: linear-gradient(#3b7689, #012733);
+  color: white;
+}
+.Treats-Firstdiv ul li{
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.5;
+  color: #121111;
+  background-color: rgb(237, 230, 230);
+  margin-left: 20px;
+  margin-right: 20%;
+}
+.Treats-Seconddiv ul li{
+font-size: 16px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+line-height: 1.5;
+color: #121111;
+background-color: rgb(237, 230, 230);
+margin-left: 20px;
+  margin-right: 20%;
+}
+.Treats-Thirddiv ul li{
+font-size: 16px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+line-height: 1.5;
+color: #121111;
+background-color: rgb(237, 230, 230);
+margin-left: 20px;
+margin-right: 20%;
+}
+
+
+
+.Kosgoda-header{
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  background-color: #ffffff;
+  box-shadow: 0 3px 6px rgba(219, 13, 13, 0.1);
+  padding: 0px 5%;
+  display: flex;
+  display: inline;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+}
+.Kosgoda-header .logo{
+  font-weight: bolder;
+  font-size: 16px;
+  color: #333;
+}
+.Kosgoda-header .head ul{
+  list-style: none;
+}
+.Kosgoda-header .head ul li{
+  position: relative;
+  float: left;
+}
+.Kosgoda-header .head ul li a{
+  font-size: 13px;
+  padding: 13px;
+  color: #333;
+  display: block;
+}
+.Kosgoda-header .head ul li a:hover{
+  color: #fff;
+  background-color: #333;
+}
+.Kosgoda-footer{
+  margin-top: 150px;
+    width: 100%;
+    padding: 5em;
+    background-color: #333;
+    color: #efefef;
+    display: flex;
+}
+
+
+.Donate-List ul{
+  float: right;
+  list-style-type: none;
+  margin: 8px;
+}
+.Donate-List ul li{
+  display: inline-block;
+}
+.Donate-List ul li a{
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  padding: 3px 6px;
+  
+}
+.Donate-List ul li a:hover{
+  background-image: linear-gradient(#3b7689, #012733);
+  color: white;
+}
+
+
+}
+
+
